@@ -2117,10 +2117,10 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   resolved "https://registry.npm.taobao.org/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-cmyr@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/eslint-config-cmyr/-/eslint-config-cmyr-1.1.3.tgz#d7efa4f6f8b56c23874d9fa00540c5e7002fb346"
-  integrity sha512-d7ErfBE0T5nc5tyDYuEZL8MR8hbc+j6RqULgBi3I1hDG9UTas+kfD0FP2ZslphkbQaKqPdljcjsGTDgjSW/r+w==
+eslint-config-cmyr@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/eslint-config-cmyr/-/eslint-config-cmyr-1.1.4.tgz#39426c95ed38b652c5992a1fded16b73eca6aee5"
+  integrity sha512-oxz7q3bzN93ZJI/y9V25+uOTFMqGxwlXA6xrdrCm4cSDy8kfwdsp8porgBYJGmrSHo5fWDAm7WRm5sHn9MSeaw==
 
 eslint-plugin-vue@^7.6.0:
   version "7.6.0"
