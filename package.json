@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "cross-env NODE_ENV=production eslint src --fix --ext .js,.ts,.vue"
+    "lint": "cross-env NODE_ENV=production eslint src *.js *.ts --fix --ext .js,.ts,.vue"
   },
   "dependencies": {
     "@vue/composition-api": "^1.0.0-rc.2",
@@ -35,6 +35,7 @@
     "stylelint-scss": "^3.19.0",
     "typescript": "^4.2.2",
     "vite": "^2.0.4",
-    "vite-plugin-vue2": "^1.2.2"
+    "vite-plugin-vue2": "^1.2.2",
+    "vite-tsconfig-paths": "^2.1.0"
   }
 }
