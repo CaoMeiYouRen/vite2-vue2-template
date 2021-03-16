@@ -15,6 +15,12 @@ export default defineConfig({
             '@': path.resolve(__dirname, 'src'),
         },
     },
+    esbuild: {
+        target: [
+            'chrome70',
+            'es2019',
+        ],
+    },
     build: {
         target: [
             'chrome70',
