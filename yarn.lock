@@ -5331,10 +5331,10 @@ vite-plugin-vue2@^1.3.2:
     vue "^2.6.11"
     vue-template-compiler "^2.6.11"
 
-vite-tsconfig-paths@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/vite-tsconfig-paths/-/vite-tsconfig-paths-2.1.0.tgz#3d8f80749f9c982a6934b25fd2d1290b48f15e51"
-  integrity sha512-SGCAtgg3PdadLsbCyDEOirlFa0bnw6EdtXbqqSyXb6gX769hA0CzTFpEj472j8LyiHnjXMr6SEwNDMADZdJxcg==
+vite-tsconfig-paths@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/vite-tsconfig-paths/-/vite-tsconfig-paths-2.5.0.tgz#ea502da972a2f2ae9c579824449ee610eeeefd3d"
+  integrity sha512-ww6FxtEdeXlB6TmC/TiZABLXaOtIs3bECfgrnjj2GNCdQTrAsuQdkvZ+VzCJnOh6o/lkuY7M+o4xxWJASQKw4Q==
   dependencies:
     debug "^4.1.1"
     tsconfig-paths "^3.9.0"
