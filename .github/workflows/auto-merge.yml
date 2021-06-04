@@ -5,7 +5,7 @@ on:
 
 jobs:
   merge:
-    if: github.event.label.name == 'dependencies'
+    if: contains(github.event.pull_request.labels.*.name, 'dependencies')
     name: Dependabot Auto Merge
     runs-on: ubuntu-latest
     steps:
@@ -31,3 +31,9 @@ jobs:
           command: merge
           target: minor
           github-token: ${{ secrets.GH_TOKEN }}
+      - name: Merge branch
+        uses: devmasx/merge-branch@v1.3.1
+        with:
+          label_name: "dependencies"
+          target_branch: "master"
+          github_token: ${{ github.token }}
