@@ -16,15 +16,16 @@ export default defineConfig({
         },
     },
     esbuild: {
-        target: [
-            'chrome70',
-            'es2019',
-        ],
+        // target: [
+        //     'chrome70',
+        //     'es2019',
+        // ],
     },
     build: {
-        target: [
-            'chrome70',
-            'es2019',
-        ],
+        minify: 'esbuild',
+        // target: [
+        //     'chrome70',
+        //     'es2019',
+        // ],
     },
 })
