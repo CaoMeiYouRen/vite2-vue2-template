@@ -837,10 +837,42 @@
     hash-sum "^2.0.0"
     micromatch "^4.0.2"
 
+"@vuedx/analyze@0.7.1":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@vuedx/analyze/-/analyze-0.7.1.tgz#3694345d220ce06929674c8238728785278f3373"
+  integrity sha512-cwAEbfKJxpU9/4963Yt4BO72xT80JCFSCreMPLrMeCrv2Y+xpGPoHdtl4yrwa8swCW8xI006lr/osVQdLh780w==
+  dependencies:
+    "@babel/code-frame" "^7.10.4"
+    "@babel/generator" "^7.12.1"
+    "@babel/parser" "^7.12.3"
+    "@babel/template" "^7.12.7"
+    "@babel/traverse" "7.12.1"
+    "@babel/types" "7.12.1"
+    "@types/micromatch" "^4.0.1"
+    "@vuedx/compiler-sfc" "0.7.0"
+    "@vuedx/compiler-tsx" "0.7.1"
+    "@vuedx/projectconfig" "0.7.0"
+    "@vuedx/shared" "0.7.1"
+    "@vuedx/template-ast-types" "0.7.0"
+    cli-highlight "^2.1.4"
+    commander "^6.1.0"
+    fast-glob "^3.2.4"
+    hash-sum "^2.0.0"
+    micromatch "^4.0.2"
+
 "@vuedx/compiler-sfc@0.6.2":
   version "0.6.2"
   resolved "https://registry.npm.taobao.org/@vuedx/compiler-sfc/download/@vuedx/compiler-sfc-0.6.2.tgz#f9a0d66eb48be839d363364ed4cd96967929f3cb"
   integrity sha1-+aDWbrSL6DnTYzZO1M2Wlnkp88s=
+  dependencies:
+    "@vue/compiler-core" "^3.0.2"
+    lru-cache "^6.0.0"
+    source-map "^0.6.1"
+
+"@vuedx/compiler-sfc@0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@vuedx/compiler-sfc/-/compiler-sfc-0.7.0.tgz#34a8313b7eca47f85f477b1a844966e98f4ca5d0"
+  integrity sha512-PdS6GrP9sHcD6IJCaWxQ62AD9d7ctFKvz7SXmy8/h+0EFzq7azpkhH2HoKukey1vnHXCzTL8tN/dP/OA4bAm/Q==
   dependencies:
     "@vue/compiler-core" "^3.0.2"
     lru-cache "^6.0.0"
@@ -857,10 +889,26 @@
     "@vuedx/shared" "0.6.2"
     "@vuedx/template-ast-types" "0.6.2"
 
+"@vuedx/compiler-tsx@0.7.1":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@vuedx/compiler-tsx/-/compiler-tsx-0.7.1.tgz#a88d34ed9e09ae1b242221658b77917900afcb6b"
+  integrity sha512-fkh+CQSEYCStBLoV3hzyIV+8CYvqp5fZhkhUFFituz84NMpPHlrdY1+YNiIXhBczf6RGFhrHEsPvj6C6SW03Ag==
+  dependencies:
+    "@babel/parser" "7.12.3"
+    "@babel/types" "7.12.1"
+    "@vue/compiler-core" "^3.0.1"
+    "@vuedx/shared" "0.7.1"
+    "@vuedx/template-ast-types" "0.7.0"
+
 "@vuedx/projectconfig@0.6.2":
   version "0.6.2"
   resolved "https://registry.npm.taobao.org/@vuedx/projectconfig/download/@vuedx/projectconfig-0.6.2.tgz#4c7c32fc76a5a0cb2a8a8b4c4530183d7b70decc"
   integrity sha1-THwy/HaloMsqiotMRTAYPXtw3sw=
+
+"@vuedx/projectconfig@0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@vuedx/projectconfig/-/projectconfig-0.7.0.tgz#1e80c6f767bc0e0ddd57b50506a7e816e3b0c750"
+  integrity sha512-3p4BYjSnxQNpx6R3xy/aD68tmhBll5+UuoHBjCJimVtwHRmu+OgQW5u4SznnkCX5WloGrch0RoCD3pwQNr1FOQ==
 
 "@vuedx/shared@0.6.2":
   version "0.6.2"
@@ -871,10 +919,25 @@
     node-unique-machine-id "^1.1.0"
     uuid "^8.3.2"
 
+"@vuedx/shared@0.7.1":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@vuedx/shared/-/shared-0.7.1.tgz#804c1af4e328d2852ae58860ce221e1076fe4d72"
+  integrity sha512-MYKxmCt9rD/01JygtbdUqI89BieP5lrcMc/WvL5fE0A5JmaLDE5qNXTJfE3HZk7V9Kq/u8CLLjGqzceVDfssrg==
+  dependencies:
+    "@sentry/node" "^5.30.0"
+    node-unique-machine-id "^1.1.0"
+
 "@vuedx/template-ast-types@0.6.2":
   version "0.6.2"
   resolved "https://registry.npm.taobao.org/@vuedx/template-ast-types/download/@vuedx/template-ast-types-0.6.2.tgz#8932b665abfed4593a0bdbfa91ed788056876770"
   integrity sha1-iTK2Zav+1Fk6C9v6ke14gFaHZ3A=
+  dependencies:
+    "@vue/compiler-core" "^3.0.0"
+
+"@vuedx/template-ast-types@0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@vuedx/template-ast-types/-/template-ast-types-0.7.0.tgz#ba442b681fc92bfc04fd2d51c0a83fc09a2b27a7"
+  integrity sha512-ODmmE6puuIvczbtXO5hUHq1/5XkyjY2sxCXJqhRHo0BEu8yauq897wK/HmrNR+m2PmE6GEzm2qSiJGjc4hkMqA==
   dependencies:
     "@vue/compiler-core" "^3.0.0"
 
@@ -892,7 +955,7 @@
     resolve-from "^5.0.0"
     typescript "^4.0.3"
 
-"@vuedx/typescript-plugin-vue@0.6.3", "@vuedx/typescript-plugin-vue@^0.6.3":
+"@vuedx/typescript-plugin-vue@0.6.3":
   version "0.6.3"
   resolved "https://registry.npm.taobao.org/@vuedx/typescript-plugin-vue/download/@vuedx/typescript-plugin-vue-0.6.3.tgz#cc2d99bdc0abbde9bb5909341c47715af00539a3"
   integrity sha1-zC2ZvcCrvem7WQk0HEdxWvAFOaM=
@@ -910,6 +973,24 @@
     vscode-uri "^2.1.2"
     vscode-web-custom-data "^0.3.2"
 
+"@vuedx/typescript-plugin-vue@^0.7.1":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@vuedx/typescript-plugin-vue/-/typescript-plugin-vue-0.7.1.tgz#34a6183f3776d99e69d1bf3cb05b6b1770d48d42"
+  integrity sha512-8HikRtUEpb9OvZ99rjN8mRWlya0kPCXA8NzFjkuFRQBkwIqy17B4S95kbOA00h0cwnl7wMFdkPN42LOH4DKmaQ==
+  dependencies:
+    "@intlify/core" "^9.0.0-beta.15"
+    "@vuedx/analyze" "0.7.1"
+    "@vuedx/compiler-sfc" "0.7.0"
+    "@vuedx/projectconfig" "0.7.0"
+    "@vuedx/shared" "0.7.1"
+    "@vuedx/template-ast-types" "0.7.0"
+    "@vuedx/vue-virtual-textdocument" "0.7.1"
+    de-indent "^1.0.2"
+    json5 "^2.1.3"
+    quick-lru "^5.1.1"
+    vscode-uri "^2.1.2"
+    vscode-web-custom-data "^0.3.2"
+
 "@vuedx/vue-virtual-textdocument@0.6.3":
   version "0.6.3"
   resolved "https://registry.npm.taobao.org/@vuedx/vue-virtual-textdocument/download/@vuedx/vue-virtual-textdocument-0.6.3.tgz#750484d93378b47ead5f6e319e32d33160ed5658"
@@ -919,6 +1000,19 @@
     "@vuedx/compiler-sfc" "0.6.2"
     "@vuedx/compiler-tsx" "0.6.3"
     "@vuedx/shared" "0.6.2"
+    source-map "^0.6.1"
+    vscode-languageserver-textdocument "^1.0.1"
+    vscode-uri "^2.1.2"
+
+"@vuedx/vue-virtual-textdocument@0.7.1":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@vuedx/vue-virtual-textdocument/-/vue-virtual-textdocument-0.7.1.tgz#5e8a7626482a5af2975752d7de0d9da7e31f457b"
+  integrity sha512-oGkKIjiHPGXYL4GoncO670hdWP7kK+8at7HP7gtbjeeUbIzR38buzRvaKTyUfy/HUUktiDYgkRnUJvybSBR+Mw==
+  dependencies:
+    "@vuedx/analyze" "0.7.1"
+    "@vuedx/compiler-sfc" "0.7.0"
+    "@vuedx/compiler-tsx" "0.7.1"
+    "@vuedx/shared" "0.7.1"
     source-map "^0.6.1"
     vscode-languageserver-textdocument "^1.0.1"
     vscode-uri "^2.1.2"
