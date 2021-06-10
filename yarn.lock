@@ -837,6 +837,29 @@
     hash-sum "^2.0.0"
     micromatch "^4.0.2"
 
+"@vuedx/analyze@0.7.2":
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/@vuedx/analyze/-/analyze-0.7.2.tgz#d15013dc6b72690845d4828308d04825bffb225e"
+  integrity sha512-oLv9i48Ef0oX6Dkf/yOB018tgVpFUVE1oWAUNPF2gOdsP5q2/7pEa3a/wZz9x/+rKsupoisGImZhVEHvIHPNww==
+  dependencies:
+    "@babel/code-frame" "^7.10.4"
+    "@babel/generator" "^7.12.1"
+    "@babel/parser" "^7.12.3"
+    "@babel/template" "^7.12.7"
+    "@babel/traverse" "7.12.1"
+    "@babel/types" "7.12.1"
+    "@types/micromatch" "^4.0.1"
+    "@vuedx/compiler-sfc" "0.7.0"
+    "@vuedx/compiler-tsx" "0.7.2"
+    "@vuedx/projectconfig" "0.7.0"
+    "@vuedx/shared" "0.7.1"
+    "@vuedx/template-ast-types" "0.7.0"
+    cli-highlight "^2.1.4"
+    commander "^6.1.0"
+    fast-glob "^3.2.4"
+    hash-sum "^2.0.0"
+    micromatch "^4.0.2"
+
 "@vuedx/compiler-sfc@0.7.0":
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/@vuedx/compiler-sfc/-/compiler-sfc-0.7.0.tgz#34a8313b7eca47f85f477b1a844966e98f4ca5d0"
@@ -850,6 +873,17 @@
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/@vuedx/compiler-tsx/-/compiler-tsx-0.7.1.tgz#a88d34ed9e09ae1b242221658b77917900afcb6b"
   integrity sha512-fkh+CQSEYCStBLoV3hzyIV+8CYvqp5fZhkhUFFituz84NMpPHlrdY1+YNiIXhBczf6RGFhrHEsPvj6C6SW03Ag==
+  dependencies:
+    "@babel/parser" "7.12.3"
+    "@babel/types" "7.12.1"
+    "@vue/compiler-core" "^3.0.1"
+    "@vuedx/shared" "0.7.1"
+    "@vuedx/template-ast-types" "0.7.0"
+
+"@vuedx/compiler-tsx@0.7.2":
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/@vuedx/compiler-tsx/-/compiler-tsx-0.7.2.tgz#b2fbbcac021db5b9aef4e2a2da8cbfc3a688a0f1"
+  integrity sha512-LzkPG4ZtNbvJ1Am7OWs0GLVGlGSW0GbiGASVR40PvutpzIzSQ9bz75Rjacfz87yJo8FAyHEIUF6R6ouZmLVAtw==
   dependencies:
     "@babel/parser" "7.12.3"
     "@babel/types" "7.12.1"
@@ -891,7 +925,7 @@
     resolve-from "^5.0.0"
     typescript "^4.0.3"
 
-"@vuedx/typescript-plugin-vue@0.7.1", "@vuedx/typescript-plugin-vue@^0.7.1":
+"@vuedx/typescript-plugin-vue@0.7.1":
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/@vuedx/typescript-plugin-vue/-/typescript-plugin-vue-0.7.1.tgz#34a6183f3776d99e69d1bf3cb05b6b1770d48d42"
   integrity sha512-8HikRtUEpb9OvZ99rjN8mRWlya0kPCXA8NzFjkuFRQBkwIqy17B4S95kbOA00h0cwnl7wMFdkPN42LOH4DKmaQ==
@@ -909,6 +943,24 @@
     vscode-uri "^2.1.2"
     vscode-web-custom-data "^0.3.2"
 
+"@vuedx/typescript-plugin-vue@^0.7.2":
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/@vuedx/typescript-plugin-vue/-/typescript-plugin-vue-0.7.2.tgz#15a37833d46eff2454cc4962f745fc8901451ab7"
+  integrity sha512-96aWk2WOkkxD/84mWWMUgLzs/hbpxMQ6S3LA7tNDwtULkziT9MZc/FG2Zk6BaBG2IOJUAv5EVOlxKEeUdQE+MQ==
+  dependencies:
+    "@intlify/core" "^9.0.0-beta.15"
+    "@vuedx/analyze" "0.7.2"
+    "@vuedx/compiler-sfc" "0.7.0"
+    "@vuedx/projectconfig" "0.7.0"
+    "@vuedx/shared" "0.7.1"
+    "@vuedx/template-ast-types" "0.7.0"
+    "@vuedx/vue-virtual-textdocument" "0.7.2"
+    de-indent "^1.0.2"
+    json5 "^2.1.3"
+    quick-lru "^5.1.1"
+    vscode-uri "^2.1.2"
+    vscode-web-custom-data "^0.3.2"
+
 "@vuedx/vue-virtual-textdocument@0.7.1":
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/@vuedx/vue-virtual-textdocument/-/vue-virtual-textdocument-0.7.1.tgz#5e8a7626482a5af2975752d7de0d9da7e31f457b"
@@ -917,6 +969,19 @@
     "@vuedx/analyze" "0.7.1"
     "@vuedx/compiler-sfc" "0.7.0"
     "@vuedx/compiler-tsx" "0.7.1"
+    "@vuedx/shared" "0.7.1"
+    source-map "^0.6.1"
+    vscode-languageserver-textdocument "^1.0.1"
+    vscode-uri "^2.1.2"
+
+"@vuedx/vue-virtual-textdocument@0.7.2":
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/@vuedx/vue-virtual-textdocument/-/vue-virtual-textdocument-0.7.2.tgz#6f411d18b5d7c4912056363771c30407361029c7"
+  integrity sha512-OOMLJzCG3Qk3NIPqxExi1KbwLWLkhpw1RDqZmVdypJnpXK6Z513sdmOO5w74MnBnICU2J9E50vZdZeCUieALEQ==
+  dependencies:
+    "@vuedx/analyze" "0.7.2"
+    "@vuedx/compiler-sfc" "0.7.0"
+    "@vuedx/compiler-tsx" "0.7.2"
     "@vuedx/shared" "0.7.1"
     source-map "^0.6.1"
     vscode-languageserver-textdocument "^1.0.1"
