@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@vue/composition-api": "^1.1.3",
-    "core-js": "^3.16.3",
+    "core-js": "^3.16.4",
     "vue": "^2.6.14",
     "vue-composable": "^1.0.0-beta.23",
     "vue-router": "^3.5.2",
