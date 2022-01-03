@@ -5378,10 +5378,10 @@ vfile@^3.0.0:
     unist-util-stringify-position "^1.0.0"
     vfile-message "^1.0.0"
 
-vite-plugin-vue2@^1.9.0:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/vite-plugin-vue2/-/vite-plugin-vue2-1.9.0.tgz#59330699c384d4dbe6c0ded0cfb481f114e46832"
-  integrity sha512-4vmcoiOmOTGjRnA0hk8tHYqk96ZxRpe4AmeCqJJ8jQuNo+SDF1zXPyhxAUIK1tuK354No77WVHHIimVvZQuvIA==
+vite-plugin-vue2@^1.9.1:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/vite-plugin-vue2/-/vite-plugin-vue2-1.9.1.tgz#c609709a1cdca22fe26835689ce860c0f856cc27"
+  integrity sha512-jQUt5+5YrEQtswGXs2DtRq+A2VDOG/IXTv2gd6usEK8sTQx/r656rH4zHGHIc5RpllwAvqFSJ8f9hWlYq+01Sg==
   dependencies:
     "@babel/core" "^7.15.8"
     "@babel/parser" "^7.15.8"
