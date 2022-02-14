@@ -12,3 +12,11 @@ updates:
       interval: "daily"
       time: "19:00"
       timezone: "Asia/Shanghai"
+    ignore:
+      - dependency-name: "stylelint*"
+      - dependency-name: "sass-loader"
+        versions:
+          - ">= 11.0.0"
+      - dependency-name: "vue"
+        versions:
+          - ">= 3.0.0"
