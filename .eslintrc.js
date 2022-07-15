@@ -5,5 +5,6 @@ module.exports = {
         'cmyr/vue',
     ],
     rules: {
+        'vue/multi-word-component-names': 1,
     },
 }
