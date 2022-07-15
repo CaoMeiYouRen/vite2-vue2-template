@@ -9,7 +9,6 @@
     "lint": "cross-env NODE_ENV=production eslint src *.js *.ts --fix --ext .js,.ts,.vue"
   },
   "dependencies": {
-    "@vue/composition-api": "^1.6.3",
     "core-js": "^3.23.4",
     "vue": "^2.7.6",
     "vue-composable": "^1.0.0-beta.24",
