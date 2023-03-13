@@ -28,7 +28,7 @@
     "eslint": "^8.36.0",
     "eslint-config-cmyr": "^1.1.24",
     "eslint-plugin-vue": "^9.9.0",
-    "sass": "^1.58.3",
+    "sass": "^1.59.2",
     "stylelint": "^14.5.0",
     "stylelint-config-cmyr": "^0.2.1",
     "stylelint-config-rational-order": "^0.1.2",
