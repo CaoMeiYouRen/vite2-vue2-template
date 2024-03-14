@@ -4828,10 +4828,10 @@ trough@^1.0.0:
   resolved "https://registry.npm.taobao.org/trough/download/trough-1.0.5.tgz#b8b639cefad7d0bb2abd37d433ff8293efa5f406"
   integrity sha1-uLY5zvrX0LsqvTfUM/+Ck++l9AY=
 
-tsconfck@^2.1.0:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/tsconfck/-/tsconfck-2.1.1.tgz#9b51603d2712d1f4740fa14748ca886a2e1893e5"
-  integrity sha512-ZPCkJBKASZBmBUNqGHmRhdhM8pJYDdOXp4nRgj/O0JwUwsMq50lCDRQP/M5GBNAA0elPrq4gAeu4dkaVCuKWww==
+tsconfck@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/tsconfck/-/tsconfck-3.0.3.tgz#d9bda0e87d05b1c360e996c9050473c7e6f8084f"
+  integrity sha512-4t0noZX9t6GcPTfBAbIbbIU4pfpCwh0ueq3S4O/5qXI1VwK1outmxhe9dOiEWqMz3MW2LKgDTpqWV+37IWuVbA==
 
 tslib@^1.8.1, tslib@^1.9.3:
   version "1.14.1"
@@ -5087,14 +5087,14 @@ vite-plugin-vue2@^2.0.3:
     source-map "^0.7.3"
     vue-template-babel-compiler "^1.2.0"
 
-vite-tsconfig-paths@^4.2.3:
-  version "4.2.3"
-  resolved "https://registry.yarnpkg.com/vite-tsconfig-paths/-/vite-tsconfig-paths-4.2.3.tgz#af31ba11e828c0b2b5426304294c88edd7a1071a"
-  integrity sha512-xVsA2xe6QSlzBujtWF8q2NYexh7PAUYfzJ4C8Axpe/7d2pcERYxuxGgph9F4f0iQO36g5tyGq6eBUYIssdUrVw==
+vite-tsconfig-paths@^4.3.2:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/vite-tsconfig-paths/-/vite-tsconfig-paths-4.3.2.tgz#321f02e4b736a90ff62f9086467faf4e2da857a9"
+  integrity sha512-0Vd/a6po6Q+86rPlntHye7F31zA2URZMbH8M3saAZ/xR9QoGN/L21bxEGfXdWmFdNkqPpRdxFT7nmNe12e9/uA==
   dependencies:
     debug "^4.1.1"
     globrex "^0.1.2"
-    tsconfck "^2.1.0"
+    tsconfck "^3.0.3"
 
 vite@^3.2.5:
   version "3.2.5"
