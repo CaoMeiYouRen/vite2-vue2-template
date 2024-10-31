@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       core-js:
-        specifier: ^3.38.1
-        version: 3.38.1
+        specifier: ^3.39.0
+        version: 3.39.0
       vue:
         specifier: ^2.7.16
         version: 2.7.16
@@ -1351,8 +1351,8 @@ packages:
     resolution: {integrity: sha512-fereAvAvxDrQDOXybk3Qu3dPbOoKoysFMWtkY3mv5BsL8//OSZVL5DCLYqgRfY5cWirgRzlC+WSrxp6Bo3eNZg==}
     hasBin: true
 
-  core-js@3.38.1:
-    resolution: {integrity: sha512-OP35aUorbU3Zvlx7pjsFdu1rGNnD4pgw/CWoYzRY3t2EzoVT7shKHY1dlAy3f41cGIO7ZDPQimhGFTlEYkG/Hw==}
+  core-js@3.39.0:
+    resolution: {integrity: sha512-raM0ew0/jJUqkJ0E6e8UDtl+y/7ktFivgWvqw8dNSQeNWoSDLvQ1H/RN3aPXB9tBd4/FhyR4RDPGhsNIMsAn7g==}
 
   core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
@@ -4645,7 +4645,7 @@ snapshots:
       untildify: 4.0.0
       yargs: 16.2.0
 
-  core-js@3.38.1: {}
+  core-js@3.39.0: {}
 
   core-util-is@1.0.3: {}
 
