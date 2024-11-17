@@ -35,7 +35,7 @@ importers:
         version: 5.62.0(eslint@8.57.1)(typescript@5.6.3)
       '@vitejs/plugin-vue':
         specifier: ^3.2.0
-        version: 3.2.0(vite@3.2.10(@types/node@20.14.11)(sass@1.80.7)(sugarss@2.0.0))(vue@2.7.16)
+        version: 3.2.0(vite@3.2.10(@types/node@20.14.11)(sass@1.81.0)(sugarss@2.0.0))(vue@2.7.16)
       '@vue/compiler-sfc':
         specifier: ^3.5.12
         version: 3.5.12
@@ -61,8 +61,8 @@ importers:
         specifier: ^9.31.0
         version: 9.31.0(eslint@8.57.1)
       sass:
-        specifier: ^1.80.7
-        version: 1.80.7
+        specifier: ^1.81.0
+        version: 1.81.0
       stylelint:
         specifier: ^14.5.0
         version: 14.16.1
@@ -86,13 +86,13 @@ importers:
         version: 5.6.3
       vite:
         specifier: ^3.2.5
-        version: 3.2.10(@types/node@20.14.11)(sass@1.80.7)(sugarss@2.0.0)
+        version: 3.2.10(@types/node@20.14.11)(sass@1.81.0)(sugarss@2.0.0)
       vite-plugin-vue2:
         specifier: ^2.0.3
-        version: 2.0.3(lodash@4.17.21)(vite@3.2.10(@types/node@20.14.11)(sass@1.80.7)(sugarss@2.0.0))(vue-template-compiler@2.7.16)(vue@2.7.16)
+        version: 2.0.3(lodash@4.17.21)(vite@3.2.10(@types/node@20.14.11)(sass@1.81.0)(sugarss@2.0.0))(vue-template-compiler@2.7.16)(vue@2.7.16)
       vite-tsconfig-paths:
         specifier: ^5.1.2
-        version: 5.1.2(typescript@5.6.3)(vite@3.2.10(@types/node@20.14.11)(sass@1.80.7)(sugarss@2.0.0))
+        version: 5.1.2(typescript@5.6.3)(vite@3.2.10(@types/node@20.14.11)(sass@1.81.0)(sugarss@2.0.0))
 
 packages:
 
@@ -2857,8 +2857,8 @@ packages:
   safe-regex@1.1.0:
     resolution: {integrity: sha512-aJXcif4xnaNUzvUuC5gcb46oTS7zvg4jpMTnuqtrEPlR3vFr4pxtdTwaF1Qs3Enjn9HK+ZlwQui+a7z0SywIzg==}
 
-  sass@1.80.7:
-    resolution: {integrity: sha512-MVWvN0u5meytrSjsU7AWsbhoXi1sc58zADXFllfZzbsBT1GHjjar6JwBINYPRrkx/zqnQ6uqbQuHgE95O+C+eQ==}
+  sass@1.81.0:
+    resolution: {integrity: sha512-Q4fOxRfhmv3sqCLoGfvrC9pRV8btc0UtqL9mN6Yrv6Qi9ScL55CVH1vlPP863ISLEEMNLLuu9P+enCeGHlnzhA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -4078,9 +4078,9 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vitejs/plugin-vue@3.2.0(vite@3.2.10(@types/node@20.14.11)(sass@1.80.7)(sugarss@2.0.0))(vue@2.7.16)':
+  '@vitejs/plugin-vue@3.2.0(vite@3.2.10(@types/node@20.14.11)(sass@1.81.0)(sugarss@2.0.0))(vue@2.7.16)':
     dependencies:
-      vite: 3.2.10(@types/node@20.14.11)(sass@1.80.7)(sugarss@2.0.0)
+      vite: 3.2.10(@types/node@20.14.11)(sass@1.81.0)(sugarss@2.0.0)
       vue: 2.7.16
 
   '@vue/babel-helper-vue-jsx-merge-props@1.4.0': {}
@@ -6095,7 +6095,7 @@ snapshots:
     dependencies:
       ret: 0.1.15
 
-  sass@1.80.7:
+  sass@1.81.0:
     dependencies:
       chokidar: 4.0.0
       immutable: 5.0.2
@@ -6608,7 +6608,7 @@ snapshots:
       unist-util-stringify-position: 1.1.2
       vfile-message: 1.1.1
 
-  vite-plugin-vue2@2.0.3(lodash@4.17.21)(vite@3.2.10(@types/node@20.14.11)(sass@1.80.7)(sugarss@2.0.0))(vue-template-compiler@2.7.16)(vue@2.7.16):
+  vite-plugin-vue2@2.0.3(lodash@4.17.21)(vite@3.2.10(@types/node@20.14.11)(sass@1.81.0)(sugarss@2.0.0))(vue-template-compiler@2.7.16)(vue@2.7.16):
     dependencies:
       '@babel/core': 7.24.9
       '@babel/parser': 7.24.8
@@ -6638,7 +6638,7 @@ snapshots:
       rollup: 2.79.1
       slash: 3.0.0
       source-map: 0.7.4
-      vite: 3.2.10(@types/node@20.14.11)(sass@1.80.7)(sugarss@2.0.0)
+      vite: 3.2.10(@types/node@20.14.11)(sass@1.81.0)(sugarss@2.0.0)
       vue-template-babel-compiler: 1.2.0(vue-template-compiler@2.7.16)
       vue-template-compiler: 2.7.16
     transitivePeerDependencies:
@@ -6698,18 +6698,18 @@ snapshots:
       - walrus
       - whiskers
 
-  vite-tsconfig-paths@5.1.2(typescript@5.6.3)(vite@3.2.10(@types/node@20.14.11)(sass@1.80.7)(sugarss@2.0.0)):
+  vite-tsconfig-paths@5.1.2(typescript@5.6.3)(vite@3.2.10(@types/node@20.14.11)(sass@1.81.0)(sugarss@2.0.0)):
     dependencies:
       debug: 4.3.5
       globrex: 0.1.2
       tsconfck: 3.1.1(typescript@5.6.3)
     optionalDependencies:
-      vite: 3.2.10(@types/node@20.14.11)(sass@1.80.7)(sugarss@2.0.0)
+      vite: 3.2.10(@types/node@20.14.11)(sass@1.81.0)(sugarss@2.0.0)
     transitivePeerDependencies:
       - supports-color
       - typescript
 
-  vite@3.2.10(@types/node@20.14.11)(sass@1.80.7)(sugarss@2.0.0):
+  vite@3.2.10(@types/node@20.14.11)(sass@1.81.0)(sugarss@2.0.0):
     dependencies:
       esbuild: 0.15.18
       postcss: 8.4.39
@@ -6718,7 +6718,7 @@ snapshots:
     optionalDependencies:
       '@types/node': 20.14.11
       fsevents: 2.3.3
-      sass: 1.80.7
+      sass: 1.81.0
       sugarss: 2.0.0
 
   vscode-languageserver-textdocument@1.0.11: {}
