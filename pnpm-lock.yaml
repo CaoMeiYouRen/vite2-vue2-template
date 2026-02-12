@@ -91,8 +91,8 @@ importers:
         specifier: ^2.0.3
         version: 2.0.3(lodash@4.17.21)(vite@3.2.11(@types/node@20.14.11)(sass@1.97.3)(sugarss@2.0.0))(vue-template-compiler@2.7.16)(vue@2.7.16)
       vite-tsconfig-paths:
-        specifier: ^6.1.0
-        version: 6.1.0(typescript@5.9.3)(vite@3.2.11(@types/node@20.14.11)(sass@1.97.3)(sugarss@2.0.0))
+        specifier: ^6.1.1
+        version: 6.1.1(typescript@5.9.3)(vite@3.2.11(@types/node@20.14.11)(sass@1.97.3)(sugarss@2.0.0))
 
 packages:
 
@@ -3346,8 +3346,8 @@ packages:
       vite: ^2.0.0 || ^3.0.0 || ^4.0.0
       vue-template-compiler: ^2.2.0
 
-  vite-tsconfig-paths@6.1.0:
-    resolution: {integrity: sha512-kpd3sY9glHIDaq4V/Tlc1Y8WaKtutoc3B525GHxEVKWX42FKfQsXvjFOemu1I8VIN8pNbrMLWVTbW79JaRUxKg==}
+  vite-tsconfig-paths@6.1.1:
+    resolution: {integrity: sha512-2cihq7zliibCCZ8P9cKJrQBkfgdvcFkOOc3Y02o3GWUDLgqjWsZudaoiuOwO/gzTzy17cS5F7ZPo4bsnS4DGkg==}
     peerDependencies:
       vite: '*'
 
@@ -3516,7 +3516,7 @@ snapshots:
       '@babel/traverse': 7.24.8
       '@babel/types': 7.24.9
       convert-source-map: 2.0.0
-      debug: 4.3.5
+      debug: 4.4.3
       gensync: 1.0.0-beta.2
       json5: 2.2.3
       semver: 6.3.1
@@ -6774,7 +6774,7 @@ snapshots:
       - walrus
       - whiskers
 
-  vite-tsconfig-paths@6.1.0(typescript@5.9.3)(vite@3.2.11(@types/node@20.14.11)(sass@1.97.3)(sugarss@2.0.0)):
+  vite-tsconfig-paths@6.1.1(typescript@5.9.3)(vite@3.2.11(@types/node@20.14.11)(sass@1.97.3)(sugarss@2.0.0)):
     dependencies:
       debug: 4.4.3
       globrex: 0.1.2
