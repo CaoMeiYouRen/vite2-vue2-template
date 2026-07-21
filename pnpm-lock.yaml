@@ -34,8 +34,8 @@ importers:
         specifier: ^5.62.0
         version: 5.62.0(eslint@8.57.1)(typescript@5.9.3)
       '@vitejs/plugin-vue':
-        specifier: ^5.2.4
-        version: 5.2.4(vite@3.2.11(@types/node@20.14.11)(sass@1.99.0)(sugarss@2.0.0))(vue@2.7.16)
+        specifier: ^6.0.8
+        version: 6.0.8(vite@3.2.11(@types/node@20.14.11)(sass@1.99.0)(sugarss@2.0.0))(vue@2.7.16)
       '@vue/compiler-sfc':
         specifier: ^3.5.34
         version: 3.5.34
@@ -531,6 +531,9 @@ packages:
     resolution: {integrity: sha512-tmmZ3lQxAe/k/+rNnXQRawJ4NjxO2hqiOLTHvWchtGZULp4RyFeh6aU4XdOYBFe2KE1oShQTv4AblOs2iOrNnQ==}
     engines: {node: '>= 10.0.0'}
 
+  '@rolldown/pluginutils@1.0.1':
+    resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
+
   '@rollup/pluginutils@4.2.1':
     resolution: {integrity: sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==}
     engines: {node: '>= 8.0.0'}
@@ -662,11 +665,11 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     deprecated: Potential CWE-502 - Update to 1.3.1 or higher
 
-  '@vitejs/plugin-vue@5.2.4':
-    resolution: {integrity: sha512-7Yx/SXSOcQq5HiiV3orevHUFn+pmMB4cgbEkDYgnkUWb0WfeQ/wa2yFv6D5ICiCQOVpjA7vYDXrC7AGO8yjDHA==}
-    engines: {node: ^18.0.0 || >=20.0.0}
+  '@vitejs/plugin-vue@6.0.8':
+    resolution: {integrity: sha512-0ZjgOg7oO6farnNGup7yvoM/YXZV84OZxHAwtflItNa/6zzQyVb5LNxyea3FEKEX2XlagIKzrlH7wwxkKgtiew==}
+    engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
-      vite: ^5.0.0 || ^6.0.0
+      vite: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
       vue: ^3.2.25
 
   '@vue/babel-helper-vue-jsx-merge-props@1.4.0':
@@ -3208,6 +3211,7 @@ packages:
   tsconfck@3.1.6:
     resolution: {integrity: sha512-ks6Vjr/jEw0P1gmOVwutM3B7fWxoWBL2KRDb1JfqGVawBmO5UsvmWOQFGHBPl5yxYz4eERr19E6L7NMv+Fej4w==}
     engines: {node: ^18 || >=20}
+    deprecated: unmaintained
     hasBin: true
     peerDependencies:
       typescript: ^5.0.0
@@ -3965,6 +3969,8 @@ snapshots:
       '@parcel/watcher-win32-x64': 2.5.6
     optional: true
 
+  '@rolldown/pluginutils@1.0.1': {}
+
   '@rollup/pluginutils@4.2.1':
     dependencies:
       estree-walker: 2.0.2
@@ -4140,8 +4146,9 @@ snapshots:
 
   '@ungap/structured-clone@1.2.0': {}
 
-  '@vitejs/plugin-vue@5.2.4(vite@3.2.11(@types/node@20.14.11)(sass@1.99.0)(sugarss@2.0.0))(vue@2.7.16)':
+  '@vitejs/plugin-vue@6.0.8(vite@3.2.11(@types/node@20.14.11)(sass@1.99.0)(sugarss@2.0.0))(vue@2.7.16)':
     dependencies:
+      '@rolldown/pluginutils': 1.0.1
       vite: 3.2.11(@types/node@20.14.11)(sass@1.99.0)(sugarss@2.0.0)
       vue: 2.7.16
 
